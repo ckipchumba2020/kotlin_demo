@@ -37,7 +37,7 @@ class HomeFragment : Fragment() {
     ): View? {
 
         val view = inflater.inflate(R.layout.fragment_home, container, false)
-        val button = view.findViewById<Button>(R.id.buttonContacts)
+        val button = view.findViewById<Button>(R.id.button_contacts)
 
         button.setOnClickListener {
             val action = HomeFragmentDirections.actionHomeFragmentToContactsFragment()
